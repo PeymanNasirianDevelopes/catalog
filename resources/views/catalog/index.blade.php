@@ -5,14 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="ThemeStarz">
 
-    <link href="{{asset("css/css00000.css")}}" rel="stylesheet">
-    <link rel="stylesheet" href="{{asset("css/bootstra.css")}}" type="text/css">
-    <link rel="stylesheet" href="{{asset("css/font-awe.css")}}" type="text/css">
-    <link rel="stylesheet" href="{{asset("css/selectiz.css")}}" type="text/css">
-    <link rel="stylesheet" href="{{asset("css/style000.css")}}">
-    <link rel="stylesheet" href="{{asset("css/user0000.css")}}">
+@include("catalog.css")
 
-    <title>Craigs - Easy Buy & Sell Listing HTML Template</title>
+    <title>Qatar Catalog</title>
 
 
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
@@ -1481,16 +1476,7 @@
 </div>
 <!--end page-->
 
-<script src="{{asset("js/jquery-3.js")}}"></script>
-<script type="text/javascript" src="{{asset("js/popper00.js")}}"></script>
-<script type="text/javascript" src="{{asset("js/bootstra.js")}}"></script>
-<script type="text/javascript" src="{{asset("js/js000000.js")}}"></script>
-<!--<script type="text/javascript" src="http://maps.google.com/maps/api/js")}}"></script>-->
-<script src="{{asset("js/selectiz.js")}}"></script>
-<script src="{{asset("js/masonry0.js")}}"></script>
-<script src="{{asset("js/icheck00.js")}}"></script>
-<script src="{{asset("js/jquery00.js")}}"></script>
-<script src="{{asset("js/custom00.js")}}"></script>
+@include("catalog.js")
 
 </body>
 </html>

@@ -13,13 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/','IndexController@main');
+Route::get('/catalog','IndexController@catalog');
+Route::get('/catalog/a', function () {
+    return view('catalog.submit_ad');
 });
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/verifyemail/{token}', 'Auth\RegisterController@verify');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home')->middleware('auth');

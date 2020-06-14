@@ -7,7 +7,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href=""><img src="{{asset("storage/images/logo0000.png")}}" alt="logo" class="img-responsive"></a>
+                <a class="navbar-brand" href=""><img src="{{asset("storage/images/$header->logo")}}" alt="logo" class="img-responsive"></a>
             </div>
             <div class="collapse navbar-collapse" id="navigation">
                 <ul class="nav navbar-nav navbar-right">
@@ -27,36 +27,27 @@
 <!-- slider area start -->
 <section id="slider-area" class="home-style-3 blue-grad-bg">
     <div class="slider-wrapper">
+
+
         <div class="slide one">
             <div class="container">
                 <div class="slider-text wow fadeIn">
-                    <h1 data-animation="fadeInDown" data-delay="0.3s"><span>APPAI App</span> Built <br><span>For </span>passionate People</h1>
-                    <p data-animation="fadeInDown" data-delay="0.8s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                    <h1 data-animation="fadeInDown" data-delay="0.3s">{!! $header->title !!}</h1>
+                    <p data-animation="fadeInDown" data-delay="0.8s">{!! $header->content !!}</p>
+
+
                     <div class="button-group" data-animation="fadeInDown" data-delay="1.3s">
                         <a href="" class="btn btn-bordered-white">Download</a>
                         <a href="" class="btn btn-bordered-white hidden-xs">Learn More..</a>
                     </div>
                 </div>
                 <div class="slider-image" data-animation="fadeInRight" data-delay=".3s">
-                    <img src="{{asset("storage/images/app-mock.png")}}" alt="">
+                    <img src="{{asset("storage/images/$header->phone_image")}}" alt="">
                 </div>
             </div>
         </div>
-        <div class="slide two">
-            <div class="container">
-                <div class="slider-text wow fadeIn">
-                    <h1 data-animation="fadeInDown" data-delay="0.3s">SHOWCASE YOUR APPS</h1>
-                    <p data-animation="fadeInDown" data-delay="0.8s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
-                    <div class="button-group" data-animation="fadeInDown" data-delay="1.3s">
-                        <a href="" class="btn btn-bordered-white">Download</a>
-                        <a href="" class="btn btn-bordered-white hidden-xs">Learn More..</a>
-                    </div>
-                </div>
-                <div class="slider-image" data-animation="fadeInRight" data-delay=".3s">
-                    <img src="{{asset("storage/images/app-mock.png")}}" alt="">
-                </div>
-            </div>
-        </div>
+
+
     </div>
     <div class="app-users-area">
         <div class="container">

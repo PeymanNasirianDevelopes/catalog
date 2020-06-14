@@ -21,6 +21,15 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('dashboard');
+        $currentuser=  auth()->user();
+        if($currentuser->admin){
+            return view("dashboard");
+        }
+        else{
+            return view('catalog.index');
+        }
+
     }
+
+
 }
