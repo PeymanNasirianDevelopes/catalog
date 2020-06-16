@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 
+use App\Category;
 use App\Header;
 use Illuminate\Http\Request;
 
@@ -20,8 +21,8 @@ $header=Header::first();
 
     public function catalog()
     {
-
-            return view("catalog.index");
+        $categories=Category::all();
+            return view("catalog.index")->with(compact("categories"));
 
 
 

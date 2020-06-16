@@ -84,240 +84,51 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbar">
                         <!--Main navigation list-->
-                        <ul class="navbar-nav">
-                            <li class="nav-item active has-child">
-                                <a class="nav-link" href="">Home</a>
-                                <ul class="child">
-                                    <li class="nav-item">
-                                        <a href="http://themestarz.net/html/craigs/index.html" class="nav-link">Home 1</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="http://themestarz.net/html/craigs/index-2.html" class="nav-link">Home 2</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="http://themestarz.net/html/craigs/index-3.html" class="nav-link">Home 3</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="http://themestarz.net/html/craigs/index-4.html" class="nav-link">Home 4</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item has-child">
-                                <a class="nav-link" href="">Listing</a>
-                                <!-- 1st level -->
-                                <ul class="child">
-                                    <li class="nav-item has-child">
-                                        <a href="" class="nav-link">Grid</a>
-                                        <!-- 2nd level -->
-                                        <ul class="child">
-                                            <li class="nav-item">
-                                                <a href="http://themestarz.net/html/craigs/listing-grid-full-width.html" class="nav-link">Full Width</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="http://themestarz.net/html/craigs/listing-grid-sidebar.html" class="nav-link">With Sidebar</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="http://themestarz.net/html/craigs/listing-grid-compact-sidebar.html" class="nav-link">Compact With Sidebar</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="http://themestarz.net/html/craigs/listing-grid-compact-full-width.html" class="nav-link">Compact Full Width</a>
-                                            </li>
-                                        </ul>
-                                        <!-- end 2nd level -->
-                                    </li>
-                                    <li class="nav-item has-child">
-                                        <a href="" class="nav-link">List</a>
-                                        <!-- 2nd level -->
-                                        <ul class="child">
-                                            <li class="nav-item">
-                                                <a href="http://themestarz.net/html/craigs/listing-list-full-width.html" class="nav-link">Full Width</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="http://themestarz.net/html/craigs/listing-list-sidebar.html" class="nav-link">With Sidebar</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="http://themestarz.net/html/craigs/listing-list-compact-sidebar.html" class="nav-link">Compact With Sidebar</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="http://themestarz.net/html/craigs/listing-list-compact-full-width.html" class="nav-link">Compact Full Width</a>
-                                            </li>
-                                        </ul>
-                                        <!-- end 2nd level -->
-                                    </li>
-                                    <li class="nav-item has-child">
-                                        <a href="" class="nav-link">Masonry</a>
-                                        <!-- 2nd level -->
-                                        <ul class="child">
-                                            <li class="nav-item">
-                                                <a href="http://themestarz.net/html/craigs/listing-masonry-full-width.html" class="nav-link">Full Width</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="http://themestarz.net/html/craigs/listing-masonry-sidebar.html" class="nav-link">With Sidebar</a>
-                                            </li>
-                                        </ul>
-                                        <!-- end 2nd level -->
-                                    </li>
-                                    <li class="nav-item has-child">
-                                        <a href="" class="nav-link">Single</a>
-                                        <!-- 2nd level -->
-                                        <ul class="child">
-                                            <li class="nav-item">
-                                                <a href="http://themestarz.net/html/craigs/single-listing-1.html" class="nav-link">Single 1</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="http://themestarz.net/html/craigs/single-listing-2.html" class="nav-link">Single 2</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="http://themestarz.net/html/craigs/single-listing-3.html" class="nav-link">Single 3</a>
-                                            </li>
-                                        </ul>
-                                        <!-- end 2nd level -->
-                                    </li>
-                                </ul>
-                                <!-- end 1st level -->
-                            </li>
-                            <li class="nav-item has-child">
-                                <a class="nav-link" href="">Pages</a>
-                                <!-- 2nd level -->
-                                <ul class="child">
-                                    <li class="nav-item">
-                                        <a href="http://themestarz.net/html/craigs/sellers.html" class="nav-link">Sellers</a>
-                                    </li>
-                                    <li class="nav-item has-child">
-                                        <a href="" class="nav-link">Seller Detail</a>
-                                        <!-- 3rd level -->
-                                        <ul class="child">
-                                            <li class="nav-item">
-                                                <a href="http://themestarz.net/html/craigs/seller-detail-1.html" class="nav-link">Seller Detail
-                                                    1</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="http://themestarz.net/html/craigs/seller-detail-2.html" class="nav-link">Seller Detail
-                                                    2</a>
-                                            </li>
-                                        </ul>
-                                        <!-- end 3rd level -->
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="http://themestarz.net/html/craigs/blog.html" class="nav-link">Blog</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="http://themestarz.net/html/craigs/blog-post.html" class="nav-link">Blog Post</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="http://themestarz.net/html/craigs/submit.html" class="nav-link">Submit Ad</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="http://themestarz.net/html/craigs/pricing.html" class="nav-link">Pricing</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="http://themestarz.net/html/craigs/faq.html" class="nav-link">FAQ</a>
-                                    </li>
-                                </ul>
-                                <!-- end 2nd level -->
-                            </li>
-                            <li class="nav-item has-child">
-                                <a class="nav-link" href="">Extras</a>
-                                <!--1st level -->
-                                <ul class="child">
-                                    <li class="nav-item has-child">
-                                        <a href="" class="nav-link">Grid Variants</a>
-                                        <ul class="child">
-                                            <li class="nav-item">
-                                                <a href="http://themestarz.net/html/craigs/listing-grid-4-items.html" class="nav-link">4 Items</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="http://themestarz.net/html/craigs/listing-grid-3-items.html" class="nav-link">3 Items</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="http://themestarz.net/html/craigs/listing-grid-2-items.html" class="nav-link">2 Items</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item has-child">
-                                        <a href="" class="nav-link">User Panel</a>
-                                        <ul class="child">
-                                            <li class="nav-item">
-                                                <a href="http://themestarz.net/html/craigs/my-profile.html" class="nav-link">My Profile</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="http://themestarz.net/html/craigs/my-ads.html" class="nav-link">My Ads</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="http://themestarz.net/html/craigs/change-password.html" class="nav-link">Change
-                                                    Password</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="http://themestarz.net/html/craigs/sign-in.html" class="nav-link">Sign In</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="http://themestarz.net/html/craigs/register.html" class="nav-link">Register</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="http://themestarz.net/html/craigs/elements.html" class="nav-link">Elements</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="http://themestarz.net/html/craigs/typography.html" class="nav-link">Typography</a>
-                                    </li>
-                                    <li class="nav-item has-child">
-                                        <a href="" class="nav-link">Nested Navigation</a>
+                        <ul dir="ltr" style="text-align: left" class="navbar-nav">
+
+
+
+
+
+                                    @foreach($categories as $category)
+
+                                    <li class="nav-item {{$category->class}}">
+                                        <a href="" class="nav-link">{{$category->title}}</a>
                                         <!--2nd level -->
                                         <ul class="child">
-                                            <li class="nav-item">
-                                                <a href="" class="nav-link">Level 2</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="" class="nav-link">Level 2</a>
-                                            </li>
-                                            <li class="nav-item has-child">
-                                                <a href="" class="nav-link">Level 2</a>
+                                    @foreach($category->subcategory as $subcategory)
+                                            <li class="nav-item {{$subcategory->class}}">
+                                                <a href="" class="nav-link">{{$subcategory->title}}</a>
                                                 <!--3rd level -->
                                                 <ul class="child">
-                                                    <li class="nav-item has-child">
-                                                        <a href="" class="nav-link">Level 3</a>
+                                                    @foreach($subcategory->subcategory_first_children as $subcategory_first_child)
+                                                    <li class="nav-item {{$subcategory_first_child->class}}">
+                                                        <a href="" class="nav-link">{{$subcategory_first_child->title}}</a>
                                                         <!--4th level -->
+
                                                         <ul class="child">
+                                                            @foreach($subcategory_first_child->subcategory_second_children as $subcategory_second_child)
                                                             <li class="nav-item">
-                                                                <a href="" class="nav-link">Level 4</a>
+                                                                <a href="" class="nav-link">{{$subcategory_second_child->title}}</a>
                                                             </li>
-                                                            <li class="nav-item">
-                                                                <a href="" class="nav-link">Level 4</a>
-                                                            </li>
-                                                            <li class="nav-item">
-                                                                <a href="" class="nav-link">Level 4</a>
-                                                            </li>
+                                                            @endforeach
                                                         </ul>
                                                         <!-- end 4th level-->
                                                     </li>
-                                                    <li class="nav-item">
-                                                        <a href="" class="nav-link">Level 3</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a href="" class="nav-link">Level 3</a>
-                                                    </li>
+                                                    @endforeach
+
                                                 </ul>
                                                 <!--end 3rd level-->
                                             </li>
+                                            @endforeach
                                         </ul>
                                         <!-- end 2nd level -->
                                     </li>
-                                    <li class="nav-item">
-                                        <a href="http://themestarz.net/html/craigs/image-header.html" class="nav-link">Image Header</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="http://themestarz.net/html/craigs/messaging.html" class="nav-link">Messages</a>
-                                    </li>
+
+                                    @endforeach
+
                                 </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="http://themestarz.net/html/craigs/contact.html">Contact</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="http://themestarz.net/html/craigs/submit.html" class="btn btn-primary text-caps btn-rounded btn-framed">Submit Ad</a>
-                            </li>
-                        </ul>
+
                         <!--Main navigation list-->
                     </div>
                     <!--end navbar-collapse-->
