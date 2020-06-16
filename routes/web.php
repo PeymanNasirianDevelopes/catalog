@@ -15,9 +15,15 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/','IndexController@main');
 Route::get('/catalog','IndexController@catalog');
-Route::get('/catalog/a', function () {
-    return view('catalog.submit_ad');
-});
+Route::get('/catalog/ads_list','IndexController@ads_list');
+Route::get('/catalog/change_password','IndexController@change_pswd');
+Route::get('/catalog/profile','IndexController@profile');
+Route::get('/catalog/register','IndexController@register');
+Route::get('/catalog/login','IndexController@login');
+Route::get('/catalog/sold','IndexController@sold');
+Route::get('/catalog/submit_ad','IndexController@submit_ad');
+Route::put('/catalog/edit_profile/{id}','UserController@edit_profile');
+
 
 
 Route::get('/verifyemail/{token}', 'Auth\RegisterController@verify');
