@@ -31,6 +31,11 @@
                             </a>
                         </li>
                         <li>
+                            <a href="{{url("catalog/submit_ad")}}">
+                                <i class="fa fa-pencil-square-o"></i>Submit Ad
+                            </a>
+                        </li>
+                        <li>
                             <a href="{{url("/logout")}}" class="nav-item dropdown-item" onclick="event.preventDefault();  document.getElementById('logout-form').submit();"> <i class="fa fa-sign-out"></i>Log out</a>
 
 
@@ -62,6 +67,11 @@
                         <li>
                             <a href="{{url("catalog/register")}}">
                                 <i class="fa fa-pencil-square-o"></i>Register
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{url("catalog/submit_ad")}}">
+                                <i class="fa fa-pencil-square-o"></i>Submit Ad
                             </a>
                         </li>
                     </ul>

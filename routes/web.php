@@ -22,6 +22,7 @@ Route::get('/catalog/register','IndexController@register');
 Route::get('/catalog/login','IndexController@login');
 Route::get('/catalog/sold','IndexController@sold');
 Route::get('/catalog/submit_ad','IndexController@submit_ad');
+Route::get('/catalog/bookmarks','IndexController@bookmarks');
 Route::put('/catalog/edit_profile/{id}','UserController@edit_profile');
 
 
@@ -39,11 +40,13 @@ Route::group(['middleware' => 'auth'], function () {
 		Route::get('rtl', ['as' => 'pages.rtl', 'uses' => 'PageController@rtl']);
 		Route::get('tables', ['as' => 'pages.tables', 'uses' => 'PageController@tables']);
 		Route::get('typography', ['as' => 'pages.typography', 'uses' => 'PageController@typography']);
+//		Route::get('categories', ['as' => 'pages.categories', 'uses' => 'PageController@categories']);
 		Route::get('upgrade', ['as' => 'pages.upgrade', 'uses' => 'PageController@upgrade']);
 });
 
 Route::group(['middleware' => 'auth'], function () {
 	Route::resource('user', 'UserController', ['except' => ['show']]);
+	Route::resource('categories', 'CategoryController');
 	Route::get('profile', ['as' => 'profile.edit', 'uses' => 'ProfileController@edit']);
 	Route::put('profile', ['as' => 'profile.update', 'uses' => 'ProfileController@update']);
 	Route::put('profile/password', ['as' => 'profile.password', 'uses' => 'ProfileController@password']);

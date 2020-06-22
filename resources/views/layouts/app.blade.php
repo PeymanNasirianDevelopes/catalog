@@ -16,6 +16,8 @@
         <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
         <!-- Icons -->
         <link href="{{ asset('black') }}/css/nucleo-icons.css" rel="stylesheet" />
+        <link href="{{ asset('black') }}/css/all00000.css" rel="stylesheet" />
+        <link href="{{ asset('black') }}/css/css00000.css" rel="stylesheet" />
         <!-- CSS -->
         <link href="{{ asset('black') }}/css/black-dashboard.css?v=1.0.0" rel="stylesheet" />
         <link href="{{ asset('black') }}/css/theme.css" rel="stylesheet" />

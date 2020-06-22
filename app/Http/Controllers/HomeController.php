@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Category;
+
 class HomeController extends Controller
 {
     /**
@@ -21,12 +23,13 @@ class HomeController extends Controller
      */
     public function index()
     {
+        $categories=Category::all();
         $currentuser=  auth()->user();
         if($currentuser->admin){
             return view("dashboard");
         }
         else{
-            return view('catalog.index');
+            return view('catalog.index')->with(compact("categories"));
         }
 
     }
